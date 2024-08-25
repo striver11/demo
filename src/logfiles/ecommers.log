@@ -1,0 +1,185 @@
+2023-08-25 10:05:15.123 - INFO - User [ID: 13579] logged in from IP: 192.168.1.4
+2023-08-25 10:05:15.234 - INFO - User [ID: 13579] searched for "Smart Watches"
+2023-08-25 10:05:15.345 - INFO - Product [ID: 54321] viewed by User [ID: 13579]
+2023-08-25 10:05:15.456 - INFO - User [ID: 13579] added Product [ID: 54321] to cart
+2023-08-25 10:05:15.456 - INFO - User [ID: 24680] logged in from IP: 192.168.1.11
+2023-08-25 10:05:15.567 - INFO - User [ID: 13579] removed Product [ID: 54321] from cart
+2023-08-25 10:05:15.567 - INFO - User [ID: 24680] searched for "Gaming Consoles"
+2023-08-25 10:05:15.678 - INFO - User [ID: 13579] searched for "Smart Watches"
+2023-08-25 10:05:15.678 - INFO - Product [ID: 98765] viewed by User [ID: 24680]
+2023-08-25 10:05:15.789 - INFO - Product [ID: 67890] viewed by User [ID: 13579]
+2023-08-25 10:05:15.789 - INFO - User [ID: 24680] added Product [ID: 98765] to cart
+2023-08-25 10:05:15.890 - INFO - User [ID: 13579] added Product [ID: 67890] to cart
+2023-08-25 10:05:15.901 - INFO - User [ID: 13579] started checkout process
+2023-08-25 10:05:15.901 - INFO - User [ID: 24680] removed Product [ID: 98765] from cart
+2023-08-25 10:05:15.912 - INFO - Payment initiated by User [ID: 13579] using PayPal
+2023-08-25 10:05:15.912 - INFO - User [ID: 24680] added Product [ID: 54321] to cart
+2023-08-25 10:05:15.923 - ERROR - Payment failed for User [ID: 13579], Order [ID: 55555] due to payment gateway timeout
+2023-08-25 10:05:15.934 - INFO - User [ID: 13579] attempted a retry for Order [ID: 55555]
+2023-08-25 10:05:15.945 - INFO - Payment successful for User [ID: 13579], Order [ID: 55555]
+2023-08-25 10:05:15.945 - INFO - User [ID: 24680] started checkout process
+2023-08-25 10:05:15.956 - INFO - User [ID: 13579] logged out
+2023-08-25 10:05:15.956 - INFO - Payment initiated by User [ID: 24680] using Credit Card
+2023-08-25 10:05:15.967 - INFO - User [ID: 24680] logged out
+2023-08-25 10:06:20.123 - INFO - User [ID: 34567] logged in from IP: 192.168.1.12
+2023-08-25 10:06:20.234 - INFO - User [ID: 34567] searched for "Laptops"
+2023-08-25 10:06:20.345 - INFO - Product [ID: 65432] viewed by User [ID: 34567]
+2023-08-25 10:06:20.456 - INFO - User [ID: 34567] added Product [ID: 65432] to cart
+2023-08-25 10:06:20.567 - INFO - User [ID: 45678] logged in from IP: 192.168.1.13
+2023-08-25 10:06:20.678 - INFO - User [ID: 45678] searched for "Headphones"
+2023-08-25 10:06:20.789 - INFO - Product [ID: 78901] viewed by User [ID: 45678]
+2023-08-25 10:06:20.890 - INFO - User [ID: 45678] added Product [ID: 78901] to cart
+2023-08-25 10:06:20.901 - INFO - User [ID: 34567] removed Product [ID: 65432] from cart
+2023-08-25 10:06:20.912 - INFO - User [ID: 45678] started checkout process
+2023-08-25 10:06:20.923 - ERROR - Payment failed for User [ID: 45678], Order [ID: 12345] due to invalid card details
+2023-08-25 10:06:20.934 - INFO - User [ID: 45678] attempted a retry for Order [ID: 12345]
+2023-08-25 10:06:20.945 - INFO - Payment successful for User [ID: 45678], Order [ID: 12345]
+2023-08-25 10:06:20.956 - INFO - User [ID: 45678] logged out
+2023-08-25 10:07:25.123 - INFO - User [ID: 56789] logged in from IP: 192.168.1.14
+2023-08-25 10:07:25.234 - INFO - User [ID: 56789] searched for "Smartphones"
+2023-08-25 10:07:25.345 - INFO - Product [ID: 98765] viewed by User [ID: 56789]
+2023-08-25 10:07:25.456 - INFO - User [ID: 56789] added Product [ID: 98765] to cart
+2023-08-25 10:07:25.567 - INFO - User [ID: 67890] logged in from IP: 192.168.1.15
+2023-08-25 10:07:25.678 - INFO - User [ID: 67890] searched for "Tablets"
+2023-08-25 10:07:25.789 - INFO - Product [ID: 54321] viewed by User [ID: 67890]
+2023-08-25 10:07:25.890 - INFO - User [ID: 67890] added Product [ID: 54321] to cart
+2023-08-25 10:07:25.901 - INFO - User [ID: 56789] removed Product [ID: 98765] from cart
+2023-08-25 10:07:25.912 - INFO - User [ID: 67890] started checkout process
+2023-08-25 10:07:25.923 - ERROR - Payment failed for User [ID: 67890], Order [ID: 67890] due to insufficient funds
+2023-08-25 10:07:25.934 - INFO - User [ID: 67890] attempted a retry for Order [ID: 67890]
+2023-08-25 10:07:25.945 - INFO - Payment successful for User [ID: 67890], Order [ID: 67890]
+2023-08-25 10:07:25.956 - INFO - User [ID: 67890] logged out
+2023-08-25 10:08:30.123 - INFO - Admin [ID: 111] logged in from IP: 192.168.1.16
+2023-08-25 10:08:30.234 - INFO - Admin [ID: 111] reviewed sales reports
+2023-08-25 10:08:30.345 - INFO - Admin [ID: 111] updated pricing for Product [ID: 98765]
+2023-08-25 10:08:30.456 - INFO - Admin [ID: 111] added new Product [ID: 23456] to inventory
+2023-08-25 10:08:30.567 - INFO - Admin [ID: 111] deleted Product [ID: 54321] from inventory
+2023-08-25 10:08:30.678 - INFO - Admin [ID: 111] logged out
+2023-08-25 10:09:35.123 - INFO - User [ID: 78901] logged in from IP: 192.168.1.17
+2023-08-25 10:09:35.234 - INFO - User [ID: 78901] searched for "Cameras"
+2023-08-25 10:09:35.345 - INFO - Product [ID: 65432] viewed by User [ID: 78901]
+2023-08-25 10:09:35.456 - INFO - User [ID: 78901] added Product [ID: 65432] to cart
+2023-08-25 10:09:35.567 - INFO - User [ID: 89012] logged in from IP: 192.168.1.18
+2023-08-25 10:09:35.678 - INFO - User [ID: 89012] searched for "Monitors"
+2023-08-25 10:09:35.789 - INFO - Product [ID: 12345] viewed by User [ID: 89012]
+2023-08-25 10:09:35.890 - INFO - User [ID: 89012] added Product [ID: 12345] to cart
+2023-08-25 10:09:35.901 - INFO - User [ID: 78901] removed Product [ID: 65432] from cart
+2023-08-25 10:09:35.912 - INFO - User [ID: 89012] started checkout process
+2023-08-25 10:09:35.923 - ERROR - Payment failed for User [ID: 89012], Order [ID: 23457] due to payment gateway timeout
+2023-08-25 10:09:35.934 - INFO - User [ID: 89012] attempted a retry for Order [ID: 23457]
+2023-08-25 10:09:35.945 - INFO - Payment successful for User [ID: 89012], Order [ID: 23457]
+2023-08-25 10:09:35.956 - INFO - User [ID: 89012] logged out
+2023-08-25 10:10:40.123 - INFO - User [ID: 90123] logged in from IP: 192.168.1.19
+2023-08-25 10:10:40.234 - INFO - User [ID: 90123] searched for "Smart Home Devices"
+2023-08-25 10:10:40.345 - INFO - Product [ID: 34567] viewed by User [ID: 90123]
+2023-08-25 10:10:40.456 - INFO - User [ID: 90123] added Product [ID: 34567] to cart
+2023-08-25 10:10:40.567 - INFO - User [ID: 10112] logged in from IP: 192.168.1.20
+2023-08-25 10:10:40.678 - INFO - User [ID: 10112] searched for "Kitchen Appliances"
+2023-08-25 10:10:40.789 - INFO - Product [ID: 45678] viewed by User [ID: 10112]
+2023-08-25 10:10:40.890 - INFO - User [ID: 10112] added Product [ID: 45678] to cart
+2023-08-25 10:10:40.901 - INFO - User [ID: 90123] removed Product [ID: 34567] from cart
+2023-08-25 10:10:40.912 - INFO - User [ID: 10112] started checkout process
+2023-08-25 10:10:40.923 - ERROR - Payment failed for User [ID: 10112], Order [ID: 34568] due to insufficient funds
+2023-08-25 10:10:40.934 - INFO - User [ID: 10112] attempted a retry for Order [ID: 34568]
+2023-08-25 10:10:40.945 - INFO - Payment successful for User [ID: 10112], Order [ID: 34568]
+2023-08-25 10:10:40.956 - INFO - User [ID: 10112] logged out
+2023-08-25 10:11:45.123 - INFO - User [ID: 11223] logged in from IP: 192.168.1.22
+2023-08-25 10:11:45.234 - INFO - User [ID: 11223] searched for "Outdoor Gear"
+2023-08-25 10:11:45.345 - INFO - Product [ID: 56789] viewed by User [ID: 11223]
+2023-08-25 10:11:45.456 - INFO - User [ID: 11223] added Product [ID: 56789] to cart
+2023-08-25 10:11:45.567 - INFO - User [ID: 12345] logged in from IP: 192.168.1.21
+2023-08-25 10:11:45.678 - INFO - User [ID: 12345] searched for "Books"
+2023-08-25 10:11:45.789 - INFO - Product [ID: 23456] viewed by User [ID: 12345]
+2023-08-25 10:11:45.890 - INFO - User [ID: 12345] added Product [ID: 23456] to cart
+2023-08-25 10:11:45.901 - INFO - User [ID: 11223] removed Product [ID: 56789] from cart
+2023-08-25 10:11:45.912 - INFO - User [ID: 12345] removed Product [ID: 23456] from cart
+2023-08-25 10:11:45.923 - INFO - User [ID: 12345] started checkout process
+2023-08-25 10:11:45.934 - ERROR - Payment failed for User [ID: 12345], Order [ID: 34569] due to payment gateway timeout
+2023-08-25 10:11:45.945 - INFO - User [ID: 12345] attempted a retry for Order [ID: 34569]
+2023-08-25 10:11:45.956 - INFO - Payment successful for User [ID: 12345], Order [ID: 34569]
+2023-08-25 10:11:45.967 - INFO - User [ID: 12345] logged out
+2023-08-25 10:12:50.123 - INFO - User [ID: 13579] logged in from IP: 192.168.1.4
+2023-08-25 10:12:50.234 - INFO - User [ID: 13579] searched for "Smart Watches"
+2023-08-25 10:12:50.345 - INFO - Product [ID: 54321] viewed by User [ID: 13579]
+2023-08-25 10:12:50.456 - INFO - User [ID: 13579] added Product [ID: 54321] to cart
+2023-08-25 10:12:50.567 - INFO - User [ID: 24680] logged in from IP: 192.168.1.11
+2023-08-25 10:12:50.678 - INFO - User [ID: 24680] searched for "Gaming Consoles"
+2023-08-25 10:12:50.789 - INFO - Product [ID: 98765] viewed by User [ID: 24680]
+2023-08-25 10:12:50.890 - INFO - User [ID: 24680] added Product [ID: 98765] to cart
+2023-08-25 10:12:50.901 - INFO - User [ID: 13579] removed Product [ID: 54321] from cart
+2023-08-25 10:12:50.912 - INFO - User [ID: 24680] started checkout process
+2023-08-25 10:12:50.923 - ERROR - Payment failed for User [ID: 24680], Order [ID: 55556] due to payment gateway timeout
+2023-08-25 10:12:50.934 - INFO - User [ID: 24680] attempted a retry for Order [ID: 55556]
+2023-08-25 10:12:50.945 - INFO - Payment successful for User [ID: 24680], Order [ID: 55556]
+2023-08-25 10:12:50.956 - INFO - User [ID: 24680] logged out
+2023-08-25 10:13:55.123 - INFO - User [ID: 34567] logged in from IP: 192.168.1.12
+2023-08-25 10:13:55.234 - INFO - User [ID: 34567] searched for "Laptops"
+2023-08-25 10:13:55.345 - INFO - Product [ID: 65432] viewed by User [ID: 34567]
+2023-08-25 10:13:55.456 - INFO - User [ID: 34567] added Product [ID: 65432] to cart
+2023-08-25 10:13:55.567 - INFO - User [ID: 45678] logged in from IP: 192.168.1.13
+2023-08-25 10:13:55.678 - INFO - User [ID: 45678] searched for "Headphones"
+2023-08-25 10:13:55.789 - INFO - Product [ID: 78901] viewed by User [ID: 45678]
+2023-08-25 10:13:55.890 - INFO - User [ID: 45678] added Product [ID: 78901] to cart
+2023-08-25 10:13:55.901 - INFO - User [ID: 34567] removed Product [ID: 65432] from cart
+2023-08-25 10:13:55.912 - INFO - User [ID: 45678] started checkout process
+2023-08-25 10:13:55.923 - ERROR - Payment failed for User [ID: 45678], Order [ID: 12346] due to invalid card details
+2023-08-25 10:13:55.934 - INFO - User [ID: 45678] attempted a retry for Order [ID: 12346]
+2023-08-25 10:13:55.945 - INFO - Payment successful for User [ID: 45678], Order [ID: 12346]
+2023-08-25 10:13:55.956 - INFO - User [ID: 45678] logged out
+2023-08-25 10:14:00.123 - INFO - User [ID: 56789] logged in from IP: 192.168.1.14
+2023-08-25 10:14:00.234 - INFO - User [ID: 56789] searched for "Smartphones"
+2023-08-25 10:14:00.345 - INFO - Product [ID: 98765] viewed by User [ID: 56789]
+2023-08-25 10:14:00.456 - INFO - User [ID: 56789] added Product [ID: 98765] to cart
+2023-08-25 10:14:00.567 - INFO - User [ID: 67890] logged in from IP: 192.168.1.15
+2023-08-25 10:14:00.678 - INFO - User [ID: 67890] searched for "Tablets"
+2023-08-25 10:14:00.789 - INFO - Product [ID: 54321] viewed by User [ID: 67890]
+2023-08-25 10:14:00.890 - INFO - User [ID: 67890] added Product [ID: 54321] to cart
+2023-08-25 10:14:00.901 - INFO - User [ID: 56789] removed Product [ID: 98765] from cart
+2023-08-25 10:14:00.912 - INFO - User [ID: 67890] started checkout process
+2023-08-25 10:14:00.923 - ERROR - Payment failed for User [ID: 67890], Order [ID: 67891] due to insufficient funds
+2023-08-25 10:14:00.934 - INFO - User [ID: 67890] attempted a retry for Order [ID: 67891]
+2023-08-25 10:14:00.945 - INFO - Payment successful for User [ID: 67890], Order [ID: 67891]
+2023-08-25 10:14:00.956 - INFO - User [ID: 67890] logged out
+2023-08-25 10:15:10.123 - INFO - User [ID: 78901] logged in from IP: 192.168.1.17
+2023-08-25 10:15:10.234 - INFO - User [ID: 78901] searched for "Cameras"
+2023-08-25 10:15:10.345 - INFO - Product [ID: 65432] viewed by User [ID: 78901]
+2023-08-25 10:15:10.456 - INFO - User [ID: 78901] added Product [ID: 65432] to cart
+2023-08-25 10:15:10.567 - INFO - User [ID: 89012] logged in from IP: 192.168.1.18
+2023-08-25 10:15:10.678 - INFO - User [ID: 89012] searched for "Monitors"
+2023-08-25 10:15:10.789 - INFO - Product [ID: 12345] viewed by User [ID: 89012]
+2023-08-25 10:15:10.890 - INFO - User [ID: 89012] added Product [ID: 12345] to cart
+2023-08-25 10:15:10.901 - INFO - User [ID: 78901] removed Product [ID: 65432] from cart
+2023-08-25 10:15:10.912 - INFO - User [ID: 89012] started checkout process
+2023-08-25 10:15:10.923 - ERROR - Payment failed for User [ID: 89012], Order [ID: 23458] due to payment gateway timeout
+2023-08-25 10:15:10.934 - INFO - User [ID: 89012] attempted a retry for Order [ID: 23458]
+2023-08-25 10:15:10.945 - INFO - Payment successful for User [ID: 89012], Order [ID: 23458]
+2023-08-25 10:15:10.956 - INFO - User [ID: 89012] logged out
+2023-08-25 10:16:15.123 - INFO - User [ID: 90123] logged in from IP: 192.168.1.19
+2023-08-25 10:16:15.234 - INFO - User [ID: 90123] searched for "Smart Home Devices"
+2023-08-25 10:16:15.345 - INFO - Product [ID: 34567] viewed by User [ID: 90123]
+2023-08-25 10:16:15.456 - INFO - User [ID: 90123] added Product [ID: 34567] to cart
+2023-08-25 10:16:15.567 - INFO - User [ID: 10112] logged in from IP: 192.168.1.20
+2023-08-25 10:16:15.678 - INFO - User [ID: 10112] searched for "Kitchen Appliances"
+2023-08-25 10:16:15.789 - INFO - Product [ID: 45678] viewed by User [ID: 10112]
+2023-08-25 10:16:15.890 - INFO - User [ID: 10112] added Product [ID: 45678] to cart
+2023-08-25 10:16:15.901 - INFO - User [ID: 90123] removed Product [ID: 34567] from cart
+2023-08-25 10:16:15.912 - INFO - User [ID: 10112] started checkout process
+2023-08-25 10:16:15.923 - ERROR - Payment failed for User [ID: 10112], Order [ID: 34569] due to insufficient funds
+2023-08-25 10:16:15.934 - INFO - User [ID: 10112] attempted a retry for Order [ID: 34569]
+2023-08-25 10:16:15.945 - INFO - Payment successful for User [ID: 10112], Order [ID: 34569]
+2023-08-25 10:16:15.956 - INFO - User [ID: 10112] logged out
+2023-08-25 10:17:20.123 - INFO - User [ID: 11223] logged in from IP: 192.168.1.22
+2023-08-25 10:17:20.234 - INFO - User [ID: 11223] searched for "Outdoor Gear"
+2023-08-25 10:17:20.345 - INFO - Product [ID: 56789] viewed by User [ID: 11223]
+2023-08-25 10:17:20.456 - INFO - User [ID: 11223] added Product [ID: 56789] to cart
+2023-08-25 10:17:20.567 - INFO - User [ID: 12345] logged in from IP: 192.168.1.21
+2023-08-25 10:17:20.678 - INFO - User [ID: 12345] searched for "Books"
+2023-08-25 10:17:20.789 - INFO - Product [ID: 23456] viewed by User [ID: 12345]
+2023-08-25 10:17:20.890 - INFO - User [ID: 12345] added Product [ID: 23456] to cart
+2023-08-25 10:17:20.901 - INFO - User [ID: 11223] removed Product [ID: 56789] from cart
+2023-08-25 10:17:20.912 - INFO - User [ID: 12345] removed Product [ID: 23456] from cart
+2023-08-25 10:17:20.923 - INFO - User [ID: 12345] started checkout process
+2023-08-25 10:17:20.934 - ERROR - Payment failed for User [ID: 12345], Order [ID: 34570] due to payment gateway timeout
+2023-08-25 10:17:20.945 - INFO - User [ID: 12345] attempted a retry for Order [ID: 34570]
+2023-08-25 10:17:20.956 - INFO - Payment successful for User [ID: 12345], Order [ID: 34570]
+2023-08-25 10:17:20.967 - INFO - User [ID: 12345] logged out
