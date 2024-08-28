@@ -58,3 +58,20 @@ public class LogFileReaderProductId {
         return null;
     }
 }
+
+
+
+// output:
+// Log entries for Product ID: 54321
+// 2023-08-25 10:05:15.345 - INFO - Product [ID: 54321] viewed by User [ID: 13579]
+// 2023-08-25 10:05:15.456 - INFO - User [ID: 13579] added Product [ID: 54321] to cart
+// 2023-08-25 10:05:15.567 - INFO - User [ID: 13579] removed Product [ID: 54321] from cart
+// 2023-08-25 10:05:15.912 - INFO - User [ID: 24680] added Product [ID: 54321] to cart
+// 2023-08-25 10:07:25.789 - INFO - Product [ID: 54321] viewed by User [ID: 67890]
+// 2023-08-25 10:07:25.890 - INFO - User [ID: 67890] added Product [ID: 54321] to cart
+// 2023-08-25 10:08:30.567 - INFO - Admin [ID: 111] deleted Product [ID: 54321] from inventory
+// 2023-08-25 10:12:50.345 - INFO - Product [ID: 54321] viewed by User [ID: 13579]
+// 2023-08-25 10:12:50.456 - INFO - User [ID: 13579] added Product [ID: 54321] to cart
+// 2023-08-25 10:12:50.901 - INFO - User [ID: 13579] removed Product [ID: 54321] from cart
+// 2023-08-25 10:14:00.789 - INFO - Product [ID: 54321] viewed by User [ID: 67890]
+// 2023-08-25 10:14:00.890 - INFO - User [ID: 67890] added Product [ID: 54321] to cart
