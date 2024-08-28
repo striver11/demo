@@ -82,4 +82,4 @@ public class LogFileReaderUserIdProductId {
 // 2023-08-25 10:05:15.567 - INFO - User [ID: 13579] removed Product [ID: 54321] from cart
 // 2023-08-25 10:12:50.345 - INFO - Product [ID: 54321] viewed by User [ID: 13579]
 // 2023-08-25 10:12:50.456 - INFO - User [ID: 13579] added Product [ID: 54321] to cart
-2023-08-25 10:12:50.901 - INFO - User [ID: 13579] removed Product [ID: 54321] from cart
+// 2023-08-25 10:12:50.901 - INFO - User [ID: 13579] removed Product [ID: 54321] from cart
