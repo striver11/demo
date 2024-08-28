@@ -35,3 +35,21 @@ public class LogFileReaderDateTime {
         return matchingEntries;
     }
 }
+
+
+// output:
+// Log entries for time: 2023-08-25 10:16:15
+// 2023-08-25 10:16:15.123 - INFO - User [ID: 90123] logged in from IP: 192.168.1.19
+// 2023-08-25 10:16:15.234 - INFO - User [ID: 90123] searched for "Smart Home Devices"
+// 2023-08-25 10:16:15.345 - INFO - Product [ID: 34567] viewed by User [ID: 90123]
+// 2023-08-25 10:16:15.456 - INFO - User [ID: 90123] added Product [ID: 34567] to cart
+// 2023-08-25 10:16:15.567 - INFO - User [ID: 10112] logged in from IP: 192.168.1.20
+// 2023-08-25 10:16:15.678 - INFO - User [ID: 10112] searched for "Kitchen Appliances"
+// 2023-08-25 10:16:15.789 - INFO - Product [ID: 45678] viewed by User [ID: 10112]
+// 2023-08-25 10:16:15.890 - INFO - User [ID: 10112] added Product [ID: 45678] to cart
+// 2023-08-25 10:16:15.901 - INFO - User [ID: 90123] removed Product [ID: 34567] from cart
+// 2023-08-25 10:16:15.912 - INFO - User [ID: 10112] started checkout process
+// 2023-08-25 10:16:15.923 - ERROR - Payment failed for User [ID: 10112], Order [ID: 34569] due to insufficient funds
+// 2023-08-25 10:16:15.934 - INFO - User [ID: 10112] attempted a retry for Order [ID: 34569]
+// 2023-08-25 10:16:15.945 - INFO - Payment successful for User [ID: 10112], Order [ID: 34569]
+// 2023-08-25 10:16:15.956 - INFO - User [ID: 10112] logged out
