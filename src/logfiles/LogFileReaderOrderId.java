@@ -59,3 +59,10 @@ public class LogFileReaderOrderId {
         return null;
     }
 }
+
+
+// output:
+// Log entries for Order ID: 12345
+// 2023-08-25 10:06:20.923 - ERROR - Payment failed for User [ID: 45678], Order [ID: 12345] due to invalid card details
+// 2023-08-25 10:06:20.934 - INFO - User [ID: 45678] attempted a retry for Order [ID: 12345]
+// 2023-08-25 10:06:20.945 - INFO - Payment successful for User [ID: 45678], Order [ID: 12345]
